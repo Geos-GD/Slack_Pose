@@ -34,7 +34,7 @@ Ce fichier contient la classe poseDetector, qui fournit les fonctionnalités de 
 
 N'hésitez pas à personnaliser le code selon vos besoins et à explorer les autres fonctionnalités disponibles dans les fichiers.
 
-**Note :** Assurez-vous d'avoir les vidéos appropriées dans le répertoire `PoseVideos` ou de modifier les noms de fichiers dans le code pour correspondre aux vidéos que vous souhaitez analyser.
+**Note :** Assurez-vous d'avoir les vidéos appropriées dans le répertoire `PoseVideos` ou de modifier les noms de fichiers dans le code pour correspondre aux vidéos que vous souhaitez analyser. La marche peut se faire en venant ou en partant mais la caméra doit être positionnée au plus proche de l’axe et dans la direction de la ligne.
 
 Bonne analyse de posture !
 
