@@ -9,8 +9,6 @@ import cv2
 import time
 import PoseModule as pm
 
-
-# idées : ajouter des warnings, ajout une fct de prévision de chute si centre de gravité des points du corps est éloigné du centre des pieds
 #####################################################################################################################################################################################################
 ################################################################### Set video name, direction from camera and video scale ###########################################################################
 # # EXPERIENCE 1 - Guillaume Serre Ponçon
@@ -43,7 +41,7 @@ while True:
     cv2.putText(img, 'fps :'+ str(int(fps)), (70, img.shape[0]-50), cv2.FONT_HERSHEY_PLAIN, 3,(255, 0, 0), 3) # Plot fps
     cv2.imshow("Image", img)
     ################################################################### SAVE IMAGES #################################################################################################################
-    # cv2.imwrite('Images/'+str(cnt)+'.jpeg',img)
+    cv2.imwrite('Images/'+str(cnt)+'.jpeg',img)
     #################################################################################################################################################################################################
     cnt+=1
     # Sortir de la boucle si la touche 'q' est pressée
@@ -54,7 +52,7 @@ detector.plotArmPie()
 detector.plotBodyPie()
 
 ################################################################### RECOMPOSE VIDEO FROM JPEG IMAGES ################################################################################################
-# pm.jpegToMp4('Raph.mp4')
+pm.jpegToMp4('OUTPUT/Videos/Raph.mp4')
 #####################################################################################################################################################################################################
 
 # Arrêter la capture vidéo et fermer toutes les fenêtres
