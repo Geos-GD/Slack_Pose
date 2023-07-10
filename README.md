@@ -2,9 +2,6 @@
 
 Ce projet permet d'analyser la posture d'une personne qui avance sur une slackline à l'aide de deux fichiers : AnalyseProject.py et PoseModule.py.
 
-![27](https://github.com/Geos-GD/Slack_Pose/assets/70376937/467a9ea4-4bac-455e-b8bd-3d23a8ab3126)
-
-
 ## AnalyseProject.py
 
 Ce fichier contient le script principal du projet. Il utilise la bibliothèque OpenCV pour lire une vidéo d'une personne sur une slackline et effectue l'analyse de la posture en utilisant la classe poseDetector du fichier PoseModule.py. Voici les principales fonctionnalités du fichier :
@@ -41,4 +38,4 @@ N'hésitez pas à personnaliser le code selon vos besoins et à explorer les aut
 
 Bonne analyse de posture !
 
-
+![27](https://github.com/Geos-GD/Slack_Pose/assets/70376937/467a9ea4-4bac-455e-b8bd-3d23a8ab3126)
