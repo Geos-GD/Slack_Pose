@@ -2,6 +2,7 @@
 
 Ce projet permet d'analyser la posture d'une personne qui avance sur une slackline à l'aide de deux fichiers : AnalyseProject.py et PoseModule.py.
 
+https://github.com/Geos-GD/Slack_Pose/blob/main/Images/27.jpeg
 
 ## AnalyseProject.py
 
