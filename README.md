@@ -10,7 +10,7 @@ Ce fichier contient le script principal du projet. Il utilise la bibliothèque O
 - Redimensionnement de la vidéo : Vous pouvez ajuster la taille de la vidéo en modifiant la valeur de la variable `vidscale`.
 - Détection de la posture : Le fichier utilise la classe poseDetector pour détecter et tracer les points clés du corps dans la vidéo. Il effectue ensuite l'analyse de la posture en utilisant les méthodes de la classe poseDetector.
 - Affichage des résultats : Le fichier affiche les résultats de l'analyse de la posture, tels que la position des bras et des mains, et la posture du corps.
-- Enregistrement d'images : Vous pouvez décommenter la ligne de code `cv2.imwrite` pour enregistrer les images traitées.
+- Enregistrement d'images : Vous pouvez commenter/décommenter la ligne de code `cv2.imwrite` pour enregistrer ou non les images traitées.
 
 ## PoseModule.py
 
@@ -21,7 +21,7 @@ Ce fichier contient la classe poseDetector, qui fournit les fonctionnalités de 
 - Calcul des angles : La méthode `findAngle` permet de calculer l'angle entre trois points clés spécifiés.
 - Analyse des bras : La méthode `analyseArms` analyse la position des bras et des mains et génère un diagramme en camembert pour illustrer les résultats.
 - Analyse du corps : La méthode `analyseBody` analyse la posture du corps et génère un diagramme en camembert pour illustrer les résultats.
-- Conversion d'images en vidéo : La méthode `jpegToMp4` permet de convertir une séquence d'images JPEG en une vidéo MP4.
+- Conversion d'images en vidéo : La méthode `jpegToMp4` permet de convertir une séquence d'images JPEG en une vidéo MP4. 
 
 ## Instructions d'utilisation
 
