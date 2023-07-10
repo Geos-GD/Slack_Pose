@@ -39,3 +39,5 @@ N'hésitez pas à personnaliser le code selon vos besoins et à explorer les aut
 Bonne analyse de posture !
 
 ![27](https://github.com/Geos-GD/Slack_Pose/assets/70376937/467a9ea4-4bac-455e-b8bd-3d23a8ab3126)
+
+![44](https://github.com/Geos-GD/Slack_Pose/assets/70376937/6b000853-3594-496d-98fa-d82d96244412)
